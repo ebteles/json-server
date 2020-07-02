@@ -1,0 +1,93 @@
+{
+  "cliente": [
+    {
+      "id": 1,
+      "name": "admin",
+      "password": "admin",
+      "adress": "endereco do admin",
+      "zip_code": "01000-000",
+      "city": "Sao Paulo",
+      "state": "SP",
+      "phone": "555-6666",
+      "date_insert": "2020-07-02",
+      "date_update": null,
+	  "active": true
+    },
+    {
+      "id": 2,
+      "name": "user1",
+      "password": "senha1",
+      "adress": "endereco do user1",
+      "zip_code": "01000-001",
+      "city": "Sao Paulo",
+      "state": "SP",
+      "phone": "555-8888",
+      "date_insert": "2020-07-02",
+      "date_update": null,
+	  "active": true
+    }
+  ],
+  "produto": [
+    {
+      "id": 1,
+      "name": "Arroz Tio João 5kg",
+      "price": 21.55,
+      "unidade": "kg",
+      "description": "Arroz Branco Longo-fino Tipo 1 Tio João 5 Kg",
+      "image": "https://static.carrefour.com.br/medias/sys_master/images/images/hb1/he1/h00/h00/9452863029278.jpg",
+      "stock": 25
+    },
+    {
+      "id": 2,
+      "name": "Arroz Camil 5kg",
+      "price": 18.59,
+      "unidade": "kg",
+      "description": "Arroz Branco Longo-fino Tipo 1 Camil Todo Dia 5Kg",
+      "image": "https://static.carrefour.com.br/medias/sys_master/images/images/hfb/h28/h00/h00/9476860543006.jpg",
+      "stock": 33
+    },
+    {
+      "id": 3,
+      "name": "Arroz Urbano 5kg",
+      "price": 13.99,
+      "unidade": "kg",
+      "description": "Arroz Branco Longo-fino Tipo 1 Tio Urbano 5 Kg",
+      "image": "https://static.carrefour.com.br/medias/sys_master/images/images/h92/h5d/h00/h00/9359499329566.jpg",
+      "stock": 70
+    }
+  ],
+  "pedido": [
+    {
+      "id": 1,
+      "id_user": 1,
+      "data_start": "2020-07-01",
+      "data_end": "2020-07-01"
+    },
+    {
+      "id": 2,
+      "id_user": 1,
+      "data_start": "2020-07-02",
+      "data_end": "2020-07-02"
+    }
+  ],
+  "pedido_item": [
+    {
+      "id": 1,
+      "id_order": 1,
+      "id_product": 1,
+      "quantity": 2
+    },
+    {
+      "id": 2,
+      "id_order": 1,
+      "id_product": 2,
+      "quantity": 3
+    },
+    {
+      "id": 3,
+      "id_order": 2,
+      "id_product": 3,
+      "quantity": 1
+    }
+  ]
+}
